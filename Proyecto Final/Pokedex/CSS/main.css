@@ -1,0 +1,287 @@
+body{
+    background-color: (rgb(80, 13, 13),);
+    height: auto;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+/* --------- ☝ Body / Cuerpo de Pagina ☝ --------- */
+/* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
+/* ---------- 👇 Header / Encabezado 👇 ---------- */
+
+header{
+    background-color: brown;
+    opacity: 0.8;
+    padding: 10px; 
+    margin: 0%;
+    border: 0%;
+    padding: 2%;
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    font-size: xx-large; 
+    position: static;
+}
+
+.pulse{
+    position:static;
+    background-color: #1da1f8;
+    width: 82px;
+    height: 80px;
+    border-radius: 100%;
+    border: 8px solid #000;
+    border-color: rgba(116, 116, 116, 0.658);
+    align-items:flex-end;
+}
+
+/* ----------- ☝ Header / Encabezado ☝ ----------- */
+/* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
+/* ----- 👇 Search bar / Barra de Búsqueda 👇 ----- */
+
+.flexsearch--wrapper {
+	height: auto;
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	background: transparent;
+	margin: auto;
+    border: 1%;
+    padding: 1%;
+	position: static;
+    text-align: center;
+}
+	
+.flexsearch--form {
+	overflow: hidden;
+	position: relative;
+}
+	
+.flexsearch--input-wrapper {
+	padding: 0 66px 0 0; /* Right padding for submit button width */
+	overflow: hidden;
+}
+
+.flexsearch--input {
+    width: 100%;
+}
+
+.flexsearch {
+    padding: 0 25px 0 200px;
+}
+
+.flexsearch--input {
+    -webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+    height: 60px;
+    padding: 0 46px 0 10px;
+	border-color: #888;
+    border-radius: 35px;
+    border-style: solid;
+	border-width: 5px;
+    margin-top: 15px;
+    color: #333;
+    font-family: 'Helvetica', sans-serif;
+	font-size: 20px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.flexsearch--submit {
+    position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 50px;
+	height: 50px;
+    padding: 0;
+    border: none;
+	margin-top: 20px;
+    margin-right: 10px;
+	background: transparent;
+    color: #888;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.flexsearch--input:focus {
+    outline: none;
+    border-color: rgb(0, 0, 0);
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+    color: #333; 
+}
+
+.flexsearch--submit:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	color: #888;  
+}
+
+input:-moz-placeholder {
+    color: #888
+}
+
+/* ---- ☝ Search bar / Barra de Búsqueda ☝ ---- */
+/* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
+/* ---- 👇 Main Body / Cuerpo Principal 👇 ---- */
+
+main{
+    background-color: rgb(181, 194, 185);
+    opacity: 0.9;
+    margin-left: 4%;
+    margin-right: 4%;
+    border: 2%;
+    padding: 2%;
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    font-size: xx-large; 
+    position: static;
+}
+
+.pagination{
+    margin: auto;
+    border: auto;
+    padding: 0%;
+    text-align: center; 
+    position:flex;
+}
+
+.page-item{
+    background-color: #333;
+    background-size:auto;
+    margin: auto;
+    border: auto;
+    padding: 1%;
+    text-align: center; 
+    position:flex;
+}
+
+.boton-pikachu{
+    position:flex;
+}
+
+/* ---- ☝ Main Body / Cuerpo Principal ☝ ---- */
+/* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
+/* ---- 👇 Section / Sección Primaria 👇 ---- */
+
+section{
+        background-color: rgb(181, 194, 185);
+        opacity: 0.8;
+        margin: 2%;
+        border: 2%;
+        padding: 6%;
+        text-align: center; 
+        color: rgb(255, 255, 255);
+        font-size: xx-large; 
+        position: static;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    opacity: 10;
+    border-radius: 25px;
+    border-width: 3%;
+    margin: 0%;
+    border: 0%;
+    padding: 2%;
+    text-align: center; 
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size:medium;
+}
+
+.container-pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 65%;
+    background-color: #5100ff;
+    height: 40vh;
+    overflow: auto;
+    flex-direction: row;
+}
+
+
+/* ---- ☝ Section / Sección Primaria ☝ ---- */
+/* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
+/* ---- 👇 Aside / Otra sección 👇 ---- */
+
+aside{
+    background-color: rgb(182, 184, 153);
+    opacity: 0.8;
+    border-radius: 25px;
+    border-width: 3%;
+    margin: 2%;
+    border: 2%;
+    padding: 6%;
+    text-align: center; 
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size:small;
+}
+
+.pulse-yellow{
+    position:sticky;
+    background-color: #fffc4f;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 4px solid #000;
+    border-color: rgba(116, 116, 116, 0.658);
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+.pulse-green{
+    position:sticky;
+    background-color: #2ddd59;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 4px solid #000;
+    border-color: rgba(116, 116, 116, 0.658);
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+/* ------- ☝ Aside / Otra sección ☝ ------- */
+/* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
+/* ----- 👇 Footer / Pie de página 👇 ----- */
+
+
+footer{
+    padding: 1%;
+    margin: auto;
+    border: auto;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.global-footer{
+    text-align: center;
+    padding: 1%;
+    width: 100%;
+    background: linear-gradient(  rgb(121, 20, 104),rgb(39, 16, 39),rgb(0, 0, 0));
+}
+
+.socialmedia{
+    text-align:center;
+    padding: 1%;
+    margin: auto;
+    width: 100%;
+    text-align: center, bottom;
+    bottom: 0;
+}
+
+/* ------- ☝ Footer / Pie de página ☝ ------- */
+/* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
