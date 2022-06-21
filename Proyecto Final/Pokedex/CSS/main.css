@@ -1,7 +1,8 @@
-body{
+body {
     background-color: (rgb(80, 13, 13),);
     height: auto;
     width: 100%;
+    margin: auto;
     overflow-y: scroll;
 }
 
@@ -9,29 +10,34 @@ body{
 /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
 /* ---------- 👇 Header / Encabezado 👇 ---------- */
 
-header{
+header {
     background-color: brown;
     opacity: 0.8;
-    padding: 10px; 
-    margin: 0%;
-    border: 0%;
+    padding: 1px; 
+    margin: auto;
+    border: 1%;
     padding: 2%;
     text-align: center; 
-    color: rgb(255, 255, 255);
-    font-size: xx-large; 
     position: static;
 }
 
-.pulse{
+.pulse-blue {
     position:static;
     background-color: #1da1f8;
-    width: 82px;
+    width: 80px;
     height: 80px;
     border-radius: 100%;
+    border-width: 6px;
     border: 8px solid #000;
     border-color: rgba(116, 116, 116, 0.658);
-    align-items:flex-end;
+    margin: auto;
+    background: radial-gradient(
+        #1da0f8e3,
+        #0a86d8,
+        #ced5da
+    );
 }
+
 
 /* ----------- ☝ Header / Encabezado ☝ ----------- */
 /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
@@ -45,7 +51,7 @@ header{
 	background: transparent;
 	margin: auto;
     border: 1%;
-    padding: 1%;
+    padding: 2%;
 	position: static;
     text-align: center;
 }
@@ -78,7 +84,7 @@ header{
     border-radius: 35px;
     border-style: solid;
 	border-width: 5px;
-    margin-top: 15px;
+    margin-top: auto;
     color: #333;
     font-family: 'Helvetica', sans-serif;
 	font-size: 20px;
@@ -95,7 +101,7 @@ header{
 	height: 50px;
     padding: 0;
     border: none;
-	margin-top: 20px;
+	margin-top: 05px;
     margin-right: 10px;
 	background: transparent;
     color: #888;
@@ -130,7 +136,7 @@ input:-moz-placeholder {
 /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
 /* ---- 👇 Main Body / Cuerpo Principal 👇 ---- */
 
-main{
+main {
     background-color: rgb(181, 194, 185);
     opacity: 0.9;
     margin-left: 4%;
@@ -139,19 +145,19 @@ main{
     padding: 2%;
     text-align: center; 
     color: rgb(255, 255, 255);
-    font-size: xx-large; 
+    font-size:medium; 
     position: static;
 }
 
-.pagination{
+.pagination {
     margin: auto;
     border: auto;
-    padding: 0%;
+    padding: 2%;
     text-align: center; 
     position:flex;
 }
 
-.page-item{
+.page-item {
     background-color: #333;
     background-size:auto;
     margin: auto;
@@ -161,51 +167,66 @@ main{
     position:flex;
 }
 
-.boton-pikachu{
+.boton-pikachu {
     position:flex;
+    width: 10;
 }
 
 /* ---- ☝ Main Body / Cuerpo Principal ☝ ---- */
 /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
 /* ---- 👇 Section / Sección Primaria 👇 ---- */
 
-section{
+section {
         background-color: rgb(181, 194, 185);
         opacity: 0.8;
-        margin: 2%;
-        border: 2%;
-        padding: 6%;
+        margin: auto;
+        border: 4%;
+        width: 100%;
+        padding: 2%;
         text-align: center; 
         color: rgb(255, 255, 255);
-        font-size: xx-large; 
-        position: static;
+        position: auto;
 }
 
-.container{
+.container {
     background-color: rgb(255, 255, 255);
     opacity: 10;
     border-radius: 25px;
     border-width: 3%;
-    margin: 0%;
-    border: 0%;
-    padding: 2%;
+    margin: 2%;
+    width: 100%;
+    border: solid;
+    border-image-slice: 1;
+    border-width: 4px;
+    padding: 4%;
     text-align: center; 
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
     font-size:medium;
 }
 
-.container-pokemon{
+.container-pokemon {
     display: flex;
-    flex-wrap: wrap;
+    position:sticky;
+    border: solid;
+    padding: 4%;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: none;
     justify-content: center;
-    align-items: flex-start;
     align-content: flex-start;
-    width: 65%;
+    width: auto;
     background-color: #5100ff;
     height: 40vh;
     overflow: auto;
-    flex-direction: row;
+    flex-direction: auto;
+    border: 4%;
+    padding: 2%;
+    border: solid;
+    border-image-slice: 1;
+    border-width: 2px;
 }
 
 
@@ -213,12 +234,12 @@ section{
 /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
 /* ---- 👇 Aside / Otra sección 👇 ---- */
 
-aside{
+aside {
     background-color: rgb(182, 184, 153);
     opacity: 0.8;
     border-radius: 25px;
     border-width: 3%;
-    margin: 2%;
+    margin: auto;
     border: 2%;
     padding: 6%;
     text-align: center; 
@@ -227,7 +248,7 @@ aside{
     font-size:small;
 }
 
-.pulse-yellow{
+.pulse-yellow {
     position:sticky;
     background-color: #fffc4f;
     width: 30px;
@@ -238,7 +259,7 @@ aside{
     justify-content: flex-end;
     align-self: flex-end;
 }
-.pulse-green{
+.pulse-green {
     position:sticky;
     background-color: #2ddd59;
     width: 30px;
@@ -250,12 +271,24 @@ aside{
     align-self: flex-end;
 }
 
+.pulse-red {
+    position:sticky;
+    background-color: #ff0000;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 2px solid #000;
+    border-color: rgba(116, 116, 116, 0.658);
+    margin: auto;
+}
+
+
 /* ------- ☝ Aside / Otra sección ☝ ------- */
 /* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
 /* ----- 👇 Footer / Pie de página 👇 ----- */
 
 
-footer{
+footer {
     padding: 1%;
     margin: auto;
     border: auto;
@@ -267,14 +300,14 @@ footer{
     width: 100%;
 }
 
-.global-footer{
+.global-footer {
     text-align: center;
     padding: 1%;
     width: 100%;
-    background: linear-gradient(  rgb(121, 20, 104),rgb(39, 16, 39),rgb(0, 0, 0));
+    background: linear-gradient(rgb(121, 20, 104),rgb(39, 16, 39),rgb(0, 0, 0));
 }
 
-.socialmedia{
+.socialmedia {
     text-align:center;
     padding: 1%;
     margin: auto;
@@ -283,5 +316,15 @@ footer{
     bottom: 0;
 }
 
+
+.image {
+    margin: auto;
+    width: 5%;
+}
+
+.image2{
+    margin: auto;
+    width: 30%;
+}
 /* ------- ☝ Footer / Pie de página ☝ ------- */
-/* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */
+/* ---- ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈ ⚈   ---- */s
